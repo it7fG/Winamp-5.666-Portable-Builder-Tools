@@ -1,0 +1,65 @@
+# =====================================================================
+#  IMPORTANT — DO NOT COMMIT WINAMP BINARIES
+#  Winamp 5.666 is proprietary freeware. We are NOT allowed to
+#  redistribute its files. These folders hold copies of an installed
+#  Winamp and the assembled portable build — they must stay LOCAL only.
+# =====================================================================
+
+# Source: copy of C:\Program Files (x86)\Winamp
+WinampProgram Files/
+# Source: copy of %APPDATA%\Winamp
+WinampRoaming/
+# Assembled portable build + zip (contains Winamp binaries)
+dist/
+
+# Loose Winamp binaries / installers, just in case
+*.exe
+*.dll
+*.wlz
+*.wsz
+*.wal
+winamp.ini
+paths.ini
+
+# Album folders dropped in for testing (audio + covers)
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.opus
+*.wav
+*.ape
+*.wv
+
+# --- Project artifacts created by the scripts at runtime ---
+*.bak
+*.backup
+hosts.winampbak
+
+# Personal test/scratch files (prefixed with underscore)
+_*.ps1
+_*.bat
+_*.txt
+
+# Generated tracklists (these are user output, not source)
+# Comment the next line out if you WANT to commit example tracklists.
+tools/*.txt
+# ...but keep the human-written readme/license text files.
+!tools/README.txt
+!tools/LICENSE.txt
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Generic ---
+*.log
+*.tmp
