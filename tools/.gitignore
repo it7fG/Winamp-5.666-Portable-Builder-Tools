@@ -1,0 +1,26 @@
+# --- Winamp / project artifacts ---
+# Backups created by the scripts at runtime
+*.bak
+*.backup
+hosts.winampbak
+
+# Personal test/scratch files (prefixed with underscore)
+_*.ps1
+_*.bat
+_*.txt
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Generic ---
+*.log
+*.tmp
